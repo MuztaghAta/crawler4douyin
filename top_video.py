@@ -44,7 +44,7 @@ else:
 
 # define a few functions
 def login(browser, *account):
-    """Detect login window and login to account if needed
+    """login before viewing data
     """
     browser.get(login_url)
     print('Typing in username ... ', end='')
