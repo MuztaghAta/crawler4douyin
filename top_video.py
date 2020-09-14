@@ -22,7 +22,7 @@ from selenium.common.exceptions import TimeoutException
 # settings
 browser_path = r'E:\Downloads\chromedriver_win32\chromedriver'
 login_url = 'https://kolranking.com/login'
-my_account = ['buptbf@163.com', 'beijing123']  # username and password
+my_account = ["username", "password"]
 home_url = 'https://kolranking.com/home'  # url after logged in
 data_url_lead = 'https://kolranking.com/douyin/videos?ot=' \
                'DESC&order=digg_count&date=2019-02-07&des=&page='
